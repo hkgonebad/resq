@@ -1,0 +1,18 @@
+.table{
+    border: 1px solid #e1e1e1;
+    background: #fff;
+
+    tr, td{
+        vertical-align: middle;
+    }
+
+    .btns{
+        text-align: left;
+
+        .btn{
+            font-size: 20px;
+            padding: 0 5px;
+            margin: 0 2px;
+        }
+    }
+}

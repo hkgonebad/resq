@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Reliance resQ</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Harikrishna Nair">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+
+<body class="">
+    <!--[if IE]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+    <main class="pt-0">
+
+        <section class="login ">
+            <div class="cover">
+                <div class="container-fluid">
+                    <img src="img/resq-logo.png" class="logo" alt="logo">
+                </div>
+            </div>
+        
+            <div class="loginBody">
+                <div class="top">
+                    <div class="welcome">
+                        <img src="img/resq-logo.png" class="logo" alt="logo">
+                    </div>
+                    <div class="form-group mb-0">
+                        <div class="text-center">
+                            <a href="index.html" class="changeMob"><i class="las la-angle-left"></i>Edit mobile number</a>
+                        </div>
+
+                        <div class="text-center">
+                            <label for="">OTP sent on your mobile number</label>
+                            <p>Enter 6 digit <span class="text-primary">OTP code</span></p>
+                        </div>
+                
+                        <!-- otp input -->
+                        <div>
+                            <form method="get" class="digit-group input-group input-otp" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+                                <input type="number" id="digit-1" name="digit-1" data-next="digit-2" class="form-control" />
+                                <input type="number" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" class="form-control" />
+                                <input type="number" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" class="form-control" />
+                                <input type="number" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" class="form-control" />
+                                <input type="number" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" class="form-control" />
+                                <input type="number" id="digit-6" name="digit-6" data-previous="digit-5" class="form-control" />
+                            </form>
+                        </div>
+                        <small>Didn't recieve an OTP? <a href="#!" data-toggle="modal" data-target="#modalError">Resend OTP</a></small>
+                    </div>
+                </div>
+                
+                <div class="middle">
+                    <div class="countdown">
+                        <div class="circlebar">
+                            <div class="loader-bg">
+                                <div class="text">00:00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bottom">
+                    <div class="btns text-center">
+                        <a class="btn btn-primary" href="home.html">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade modalDanger" id="modalError" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="las la-exclamation-circle"></i>
+                </div>
+                <div class="modal-body">
+                    <p>OTP Verification failed.</p>
+                    <h4>Please enter valid OTP</h4>
+
+                    <div class="btns">
+                        <button class="btn btn-primary" data-dismiss="modal" >Re-Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade modalSuccess" id="modalSuccess" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="las la-check"></i>
+                </div>
+                <div class="modal-body">
+                    <h4>OTP verification successful.</h4>
+                    <hr>
+
+                    <p>Seems like your mobile number is not registered with us</p>
+    
+                    <div class="btns">
+                        <button class="btn btn-primary"  data-dismiss="modal">Login Using Registered Mobile Number</button>
+                        <button class="btn btn-secondary" data-dismiss="modal">Create a new profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/circle.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

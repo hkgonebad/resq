@@ -1,0 +1,69 @@
+tutorial{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.tutflow{
+    header{
+        z-index: 998;
+        background: transparent;
+    }
+    tutorial{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.headerWrap{
+
+    tutorial{
+        position: absolute;
+        top: 35px;
+        z-index: 1001;
+
+        img{
+
+        }
+    }
+
+    .logo{
+        position: relative;
+        tutorial{
+            left: 20px;
+            width: 135px;
+
+            img{
+
+            }
+        }
+    }
+
+    .rightBtns{
+        position: relative;
+        tutorial{
+            right: 20px;
+            width: 100px;
+
+            img{
+
+            }
+        }
+    }
+}
+
+.tutorialWindow{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 997;
+
+    .btn{
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}

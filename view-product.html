@@ -1,0 +1,319 @@
+<!doctype html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>View Product - Reliance resQ</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Harikrishna Nair">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+
+<body class="">
+    <!--[if IE]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="headerWrap">
+                <!-- Nav Toggle/Logo -->
+                <div class="logo">
+                    <a href="#!" class="btn navToggle"><i class="las la-bars"></i></a>
+                    <a href="products.html" class="btn backPage"><i class="las la-angle-left"></i></a>
+                    <img class="logoImg" src="img/resq-logo.png" alt="ResQ Logo">
+                </div>
+
+                <!-- Logo/Middle Section -->
+                <div class="titleText">
+                    <h1>Add Product</h1>
+                </div>
+
+                <!-- Extras -->
+                <div class="rightBtns">
+                    <!-- Notifications -->
+                    <a href="home.html" class="btn"><i class="las la-home"></i></a>
+                    <a href="#!" class="btn notiBell">
+                        <i class="las la-bell"></i>
+                        <span class="badge badge-danger badge-circle">9+</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Bar/Push Menu -->
+    <aside class="left pushMenu">
+        <div class="pushMenuWrap">
+            <div class="menuHead">
+                <a href="edit-profile.html" class="edit"><i class="las la-pencil-alt"></i></a>
+                <div class="pmUser">
+                    <h4>Harikrishna Nair</h4>
+                    <p><i class="las la-phone"></i> 9890909090</p>
+                    <p><i class="las la-envelope"></i> useraddress@resq.com</p>
+                </div>
+            </div>
+            <div class="menuBody">
+                <ul class="sideNav">
+                    <li><a href="home.html"><i class="las la-home"></i> Home</a></li>
+                    <li><a href="profile.html"><i class="las la-user"></i> My Profile</a></li>
+                    <li><a href="products.html"  class="active"><i class="las la-box"></i> My Products</a></li>
+                    <li><a href="track-delivery.html"><i class="las la-route"></i> Track Delivery</a></li>
+                    <li><a href="products.html"><i class="las la-hand-pointer"></i> Service Request</a></li>
+                    <li><a href="track-services.html"><i class="las la-history"></i> Track Services</a></li>
+                    <li><a href="about.html"><i class="las la-file-alt"></i> About resQ</a></li>
+                    <li><a href="faq.html"><i class="las la-question-circle"></i> FAQ</a></li>
+                    <li><a href="#contactModal" data-toggle="modal"><i class="las la-envelope"></i> Contact Us</a></li>
+                    <li><a href="index.html"><i class="las la-power-off"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Profile -->
+        <section class="block blockLess">
+            <div class="container">
+
+                <div class="mt-3 addProduct">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group mand infoBtn">
+                                <label>Product Category</label>
+                                <input type="text" class="form-control" placeholder="Television" value="TV" readonly disabled>
+
+                                <a href="#modalInfo" data-toggle="modal" class="btn"><i class="las la-info-circle"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mand">
+                                <label>Type</label>
+                                <select name="" id="" class="form-control" readonly disabled>
+                                    <option value="">Type 01</option>
+                                    <option value="" selected>Type 02</option>
+                                    <option value="">Type 03</option>
+                                    <option value="">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group mand">
+                                <label>Brand</label>
+                                <select name="" id="" class="form-control" readonly disabled>
+                                    <option value="">Type 01</option>
+                                    <option value="" selected>Type 02</option>
+                                    <option value="">Type 03</option>
+                                    <option value="">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group mand">
+                                <label>Model Name</label>
+                                <select name="" id="" class="form-control" readonly disabled>
+                                    <option value="">Type 01</option>
+                                    <option value="">Type 02</option>
+                                    <option value="" selected>Type 03</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group mand icon">
+                                <label>Date of Purchase</label>
+                                <input type="text" class="form-control" value="20/09/2021" readonly disabled>
+                                <i class="las la-calendar"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mand  infoBtn">
+                                <label>Serial No./ IMEI No.</label>
+                                <input type="text" class="form-control" value="745467789453434" readonly disabled>
+                                <span class="hint">30 Digit</span>
+
+                                <a href="#modalInfo" data-toggle="modal" class="btn"><i class="las la-info-circle"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mand">
+                                <label>Extended Warranty</label>
+                                <select name="" id="" class="form-control" readonly disabled>
+                                    <option value="">Please select one</option>
+                                    <option value="">Yes</option>
+                                    <option value="" selected>No</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <!-- Upload Area -->
+                            <div class="form-group mb-1">
+                                <label>Upload Invoice</label>
+
+                                <!-- Uploaded -->
+                                <div  class="card card-body card-issues">
+                                    <h4>Uploaded</h4>
+                                    <ul class="issuesSelected editList">
+                                        <li>
+                                            <i class="las la-paperclip"></i>Invoice1.jpg
+                                            
+                                        </li>
+                                        <li>
+                                            <i class="las la-paperclip"></i>Invoice2.jpg
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <!-- Upload Area -->
+                            <div class="form-group mb-1">
+                                <label>Upload Photo</label>
+
+                                <div  class="card card-body card-issues">
+                                    <h4>Uploaded</h4>
+                                    <ul class="issuesSelected editList">
+                                        <li>
+                                            <i class="las la-paperclip"></i>Photo1.jpg
+                                        </li>
+                                        <li>
+                                            <i class="las la-paperclip"></i>Photo2.jpg
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+
+                    <div class="btns btnsExtra">
+                        <!-- <button class="btn btn-outline-dark" >Reset</button> -->
+                        <button class="btn btn-primary" data-target="#modalSuccess" data-toggle="modal">Add Product</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Fixed Button -->
+    <!-- <div class="fixedBtn btns">
+        <button class="btn btn-primary mb-0">Add Product</button>
+    </div> -->
+
+    <!-- Modal -->
+    <div class="modal fade modalSuccess" id="modalSuccess" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="las la-check"></i>
+                </div>
+                <div class="modal-body">
+                    <!-- <h4>Thank you</h4>
+                    <hr> -->
+    
+                    <p>Product added successfully.</p>
+    
+                    <div class="btns">
+                        <a class="btn btn-primary" href="products.html">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade modalInfo" id="modalInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="las la-info-circle"></i>
+                </div>
+                <div class="modal-body">
+                    <h4>Information</h4>
+    
+                    <p>Facing issues while adding your product?<br>Visit our <a href="faq.html#services">FAQ</a> for details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div class="modal fade " id="uploadModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="las la-upload"></i>
+                </div>
+                <div class="modal-body">
+
+                    <h4 class="mb-1">Upload a File</h4>
+                    <p>or select an option below</p>
+    
+                    <!-- Upload Area -->
+                    <div class="uploadArea">
+                    
+                        <div class="uploadOpts">
+                            <a href="#!"><i class="las la-play"></i>Record Video</a>
+                            <a href="#!"><i class="las la-camera"></i>Capture Photo</a>
+                            <a href="#!"><i class="las la-microphone"></i>Record Audio</a>
+                            <a href="#!"><i class="las la-folder"></i>Browse File</a>
+                        </div>
+
+                        <!-- Web Upload -->
+                        <div class="uploadOptsWeb">
+                            <div class="input-group mb-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile01" multiple>
+                                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="btns pt-4">
+                        <button class="btn btn-primary" data-dismiss="modal">Submit</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="sidebar-overlay"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

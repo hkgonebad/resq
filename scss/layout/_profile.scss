@@ -1,0 +1,114 @@
+.profile{
+    position: relative;
+
+    .edit{
+        position: absolute;
+        z-index: 10;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        background: #F3F3F3;
+        color: #000;
+        font-size: 14px;
+        @include border-radius(50%);
+    }
+
+    .form-group{
+
+        label{
+            // padding: 0;
+            margin-bottom: 2px;
+            // color: #898989;
+        }
+
+        p{
+            margin-bottom: 0;
+        }
+
+        .form-text{
+            text-align: left;
+            padding: 0;
+        }
+    }
+
+    &.viewProfile{
+        .form-group{
+            label{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+}
+
+.rating{
+
+    .card-rating{
+
+    }
+
+    .ratingScale{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        @include media-breakpoint-up(md){
+            justify-content: flex-start;
+        }
+
+        a{
+            text-align: center;
+            font-size: 12px;
+            width: 1%;
+            flex-grow: 1;
+            color: #888f95;
+
+            i{
+                display: block;
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+
+            @include media-breakpoint-down(xs){
+                width: auto;
+            }
+
+            @include media-breakpoint-up(md){
+                padding: 10px;
+                font-size: 15px;
+                width: auto;
+                flex-grow: initial;
+            }
+
+            &:hover,, &:focus, &.active{
+                color: #000;
+
+                i{
+                    color: $warning;
+                }
+            }
+        }
+    }
+
+    .ratingDesc{
+        margin-top: 10px;
+
+        .hint{
+            margin-top: 2px;
+            text-align: right;
+            display: block;
+            font-size: 12px;
+        }
+    }
+}
+
+.was-validated{
+    .valid-feedback, .valid-tooltip, .invalid-feedback, .invalid-tooltip{
+        display: block;
+    }
+}

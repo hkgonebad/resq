@@ -1,0 +1,230 @@
+<!doctype html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Track Request - Reliance resQ</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Harikrishna Nair">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+
+<body class="hasBottom mb-5">
+    <!--[if IE]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="headerWrap">
+                <!-- Nav Toggle/Logo -->
+                <div class="logo">
+                    <a href="#!" class="btn navToggle"><i class="las la-bars"></i></a>
+                    <a href="home.html" class="btn backPage"><i class="las la-angle-left"></i></a>
+                    <img class="logoImg" src="img/resq-logo.png" alt="ResQ Logo">
+
+                    <!-- Tutorial -->
+                    <tutorial>
+                        <img src="img/hamburger-menu.png" alt="">
+                    </tutorial>
+                </div>
+
+                <!-- Logo/Middle Section -->
+                <div class="titleText">
+                    <h1>Track Request</h1>
+                </div>
+
+                <!-- Extras -->
+                <div class="rightBtns">
+                    <!-- Notifications -->
+                    <a href="home.html" class="btn"><i class="las la-home"></i></a>
+                    <a href="#!" class="btn notiBell">
+                        <i class="las la-bell"></i>
+                        <span class="badge badge-danger badge-circle">9+</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Bar/Push Menu -->
+    <aside class="left pushMenu">
+        <div class="pushMenuWrap">
+            <div class="menuHead">
+                <a href="edit-profile.html" class="edit"><i class="las la-pencil-alt"></i></a>
+                <div class="pmUser">
+                    <h4>Harikrishna Nair</h4>
+                    <p><i class="las la-phone"></i> 9890909090</p>
+                    <p><i class="las la-envelope"></i> useraddress@resq.com</p>
+                </div>
+            </div>
+            <div class="menuBody">
+                <ul class="sideNav">
+                    <li><a href="home.html"><i class="las la-home"></i> Home</a></li>
+                    <li><a href="profile.html"><i class="las la-user"></i> My Profile</a></li>
+                    <li><a href="products.html"><i class="las la-box"></i> My Products</a></li>
+                    <li><a href="track-delivery.html"><i class="las la-route"></i> Track Delivery</a></li>
+                    <li><a href="products.html"><i class="las la-hand-pointer"></i> Service Request</a></li>
+                    <li><a href="track-services.html" class="active"><i class="las la-history"></i> Track Services</a></li>
+                    <li><a href="about.html"><i class="las la-file-alt"></i> About resQ</a></li>
+                    <li><a href="faq.html"><i class="las la-question-circle"></i> FAQ</a></li>
+                    <li><a href="#contactModal" data-toggle="modal"><i class="las la-envelope"></i> Contact Us</a></li>
+                    <li><a href="index.html"><i class="las la-power-off"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Product Cards -->
+        <section class="products trackDelivery">
+
+            <!-- Product -->
+            <div class="card card-product">
+                <div class="container">
+                    <div class="productDetails">
+                        <div class="productImg">
+                            <span><img src="img/products/double.png" alt=""></span>
+                        </div>
+                        <div class="productInfo">
+                            <h4 class="p-0">Refrigerator</h4>
+                            <h5>(Double Door - Repair Servcice)</h5>
+                        </div>
+                    </div>
+
+                    <div class="moreDetails">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Date of Booking</label>
+                                    <input type="text" readonly class="form-control-plaintext" value="26 September 2022">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Service category</label>
+                                    <input type="text" readonly class="form-control-plaintext" value="Refrigerator">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Date of Service</label>
+                                    <input type="text" readonly class="form-control-plaintext" value="26 September 2022">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Visit Charges (<i class="las la-rupee-sign"></i>)</label>
+                                    <input type="text" readonly class="form-control-plaintext text-primary" value="249">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Service ID</label>
+                                    <input type="text" readonly class="form-control-plaintext" value="5665656565">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-group">
+                                    <label for="">Payment Pending (<i class="las la-rupee-sign"></i>)</label>
+                                    <input type="text" readonly class="form-control-plaintext text-warning" value="3,500">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#!" class="btn btn-outline-primary btn-sm">Invoice</a>
+                            <a href="42.html" class="btn btn-primary btn-sm">View Estimation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Delivery Status -->
+        <section class="block deliveryStatus">
+            <div class="container">
+                <!--  -->
+                <div class="deliveryTimeline">
+                    <div class="dT success">
+                        <i class="period">27 Jan 2020, <span>10:30 AM</span></i>
+                        <p>Finding Engineer</p>
+                        <!-- <div class="btns">
+                            <a href="#rescheduleModal" data-toggle="modal" class="btn btn-outline-primary done">Reschedule Appointment</a>
+                            <a href="#cancelModal" data-toggle="modal" class="btn btn-outline-danger">Cancel Appointment</a>
+                        </div> -->
+                    </div>
+                    <div class="dT success">
+                        <i class="period">27 Jan 2020, <span>12:30 PM</span></i>
+                        <p>Your request has been allocated to the engineer</p>
+                    </div>
+                    <div class="dT success">
+                        <i class="period">27 Jan 2020, <span>2:30 PM</span></i>
+                        <p>Our Engineer is on the way</p>
+                        <!-- <div class="eDetail">
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><img src="img/user.jpg" alt=""></span>
+                                </div>
+                                <input type="text" readonly class="form-control-plaintext" value="Omprakash Kulkarnis">
+                                <div class="input-group-append" id="button-addon4">
+                                    <button class="btn btn-outline-dark" type="button"><i class="las la-phone"></i></button>
+                                    <a href="track-engineer.html" class="btn btn-outline-dark" type="button"><i class="las la-map-marker"></i></a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="dT success">
+                        <i class="period">27 Jan 2020, <span>4:30 PM</span></i>
+                        <p>Our engineer has reached the location</p>
+                    </div>
+                    <div class="dT success">
+                        <i class="period">27 Jan 2020, <span>5:00 PM</span></i>
+                        <p>Part Estimation - Pending</p>
+                        <!-- <div class="btns">
+                            <a href="#!" data-toggle="modal" class="btn btn-outline-primary">View Estimation</a>
+                        </div> -->
+                    </div>
+                    <!-- <div class="dT success">
+                        <i class="period">28 Jan 2020, <span>10:30 AM</span></i>
+                        <p>We missed you. Your request has been rescheduled for</p>
+                        <i class="period">3 Feb 2020</i>
+                        <div class="btns">
+                            <button class="btn btn-outline-success done" disabled>Reschedule Appointment</button>
+                            <a href="#cancelModal" data-toggle="modal" class="btn btn-outline-danger">Cancel Appointment</a>
+                        </div>
+                    </div> -->
+                </div>
+
+                
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Overlay -->
+    <div class="sidebar-overlay"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
